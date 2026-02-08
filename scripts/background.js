@@ -1484,7 +1484,7 @@ class CheckBackground {
             // Update domain squatting detector with new configuration
             // If URL allowlist changed, reinitialize detector to extract new domains
             if (this.domainSquattingDetector) {
-              const detectionRules = this.detectionRulesManager.cachedRules;
+              const detectionRules = this.detectionRulesManager.cachedRules || {};
               const urlAllowlist = updatedConfig?.urlAllowlist || [];
               await this.domainSquattingDetector.initialize(detectionRules, urlAllowlist);
               logger.log("Domain squatting detector configuration updated");
