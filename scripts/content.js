@@ -4011,9 +4011,7 @@ if (window.checkExtensionLoaded) {
             testDomain: squattingData.testDomain,
             protectedDomain: squattingData.protectedDomain,
             techniques: squattingData.techniques.map(t => ({
-              technique: t.technique,
-              description: t.description,
-              details: t.details
+              ...t
             })),
             severity: squattingData.severity,
             confidence: squattingData.confidence,
