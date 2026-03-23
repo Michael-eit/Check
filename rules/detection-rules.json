@@ -35,6 +35,7 @@
     "^https:\\/\\/([a-zA-Z0-9-]+\\.)*bing\\.com$",
     "^https:\\/\\/([a-zA-Z0-9-]+\\.)*msn\\.com$",
     "^https:\\/\\/([a-zA-Z0-9-]+\\.)*xbox\\.com$",
+    "^https:\\/\\/([a-zA-Z0-9-]+\\.)*mcas\\.ms$",
     "^https:\\/\\/github\\.com$",
     "^https:\\/\\/([a-zA-Z0-9-]+\\.)*cloud\\.microsoft$",
     "^https:\\/\\/([a-zA-Z0-9-]+\\.)*powerbi\\.com$"
