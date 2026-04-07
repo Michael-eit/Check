@@ -236,14 +236,28 @@
               ]
             },
             {
-              "type": "substring_present",
-              "values": [
-                "loginfmt",
-                "idsibutton9",
-                "idpartnerpl",
-                "urlmsasignup",
-                "aadcdn.msauth.net",
-                "aadcdn.msftauthimages.net"
+              "type": "any_of",
+              "operations": [
+                {
+                  "type": "substring_present",
+                  "values": [
+                    "loginfmt",
+                    "idsibutton9",
+                    "idpartnerpl",
+                    "urlmsasignup",
+                    "aadcdn.msauth.net",
+                    "aadcdn.msftauthimages.net"
+                  ]
+                },
+                {
+                  "type": "substring_present",
+                  "values": [
+                    "type=\"password\"",
+                    "signin",
+                    "sign in",
+                    "login"
+                  ]
+                }
               ]
             }
           ]
@@ -256,30 +270,35 @@
         "id": "ms_container_layout",
         "type": "code_driven",
         "code_logic": {
-          "type": "all_of",
+          "type": "any_of",
           "operations": [
             {
               "type": "pattern_count",
               "patterns": [
-                "(?:^|[^-\\w])height\\s*:\\s*100vh\\s*;"
+                "display:\\s*grid[^;{}]*;[^{}]*place-items:\\s*center"
               ],
               "flags": "i",
               "min_count": 1
             },
             {
-              "type": "pattern_count",
-              "patterns": [
-                "(?:^|[^-\\w])width\\s*:\\s*100vw\\s*;"
-              ],
-              "flags": "i",
-              "min_count": 1
-            },
-            {
-              "type": "substring_present",
-              "values": [
-                "loginfmt",
-                "idsibutton9",
-                "#i0116"
+              "type": "all_of",
+              "operations": [
+                {
+                  "type": "pattern_count",
+                  "patterns": [
+                    "(?:^|[^-\\w])height\\s*:\\s*100vh\\s*;"
+                  ],
+                  "flags": "i",
+                  "min_count": 1
+                },
+                {
+                  "type": "pattern_count",
+                  "patterns": [
+                    "(?:^|[^-\\w])width\\s*:\\s*100vw\\s*;"
+                  ],
+                  "flags": "i",
+                  "min_count": 1
+                }
               ]
             }
           ]
