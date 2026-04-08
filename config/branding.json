@@ -1,36 +1,36 @@
 {
-  "companyName": "CyberDrain",
-  "productName": "Check",
-  "supportUrl": "",
+  "companyName": "Essential IT",
+  "productName": "Essential Check",
+  "supportUrl": "email:support@essentialit.co.nz",
   "privacyPolicyUrl": "",
   "aboutUrl": "",
   "version": "1.1.0",
-  "description": "Protect against phishing attacks targeting Microsoft 365 login pages with enterprise-grade detection",
+  "description": "Enterprise-grade protection against phishing attacks targeting Microsoft 365 login pages",
   "branding": {
-    "primaryColor": "#F77F00",
-    "primaryHover": "#E56F00",
-    "primaryLight": "rgba(247, 127, 0, 0.1)",
-    "primaryDark": "#D96800",
-    "secondaryColor": "#003049",
-    "secondaryHover": "#004B73",
-    "secondaryLight": "rgba(0, 48, 73, 0.1)",
-    "secondaryDark": "#002236",
-    "accentColor": "#005C63",
-    "successColor": "#005C63",
-    "warningColor": "#F77F00",
+    "primaryColor": "#119BD8",
+    "primaryHover": "#0F8AC0",
+    "primaryLight": "rgba(17, 155, 216, 0.12)",
+    "primaryDark": "#0C709C",
+    "secondaryColor": "#1E2327",
+    "secondaryHover": "#2A3136",
+    "secondaryLight": "rgba(255, 255, 255, 0.04)",
+    "secondaryDark": "#15191C",
+    "accentColor": "#119BD8",
+    "successColor": "#119BD8",
+    "warningColor": "#F59E0B",
     "errorColor": "#DC2626",
     "textPrimary": "#FFFFFF",
-    "textSecondary": "#9CA3AF",
-    "textMuted": "#6B7280",
-    "textInverse": "#003049",
-    "bgPrimary": "#003049",
+    "textSecondary": "#D1D5DB",
+    "textMuted": "#9CA3AF",
+    "textInverse": "#1E2327",
+    "bgPrimary": "#1E2327",
     "bgSecondary": "rgba(255, 255, 255, 0.05)",
     "bgSurface": "rgba(255, 255, 255, 0.03)",
     "border": "rgba(255, 255, 255, 0.1)",
-    "borderHover": "rgba(247, 127, 0, 0.3)"
+    "borderHover": "rgba(17, 155, 216, 0.35)"
   },
   "assets": {
-    "logoUrl": "images/icon48.png",
+    "logoUrl": "images/essentialit-logo.png",
     "iconUrl": "images/icon32.png",
     "faviconUrl": "images/icon16.png",
     "bannerUrl": "images/banner.png",
@@ -48,11 +48,11 @@
     "customIconsEnabled": true
   },
   "features": {
-    "welcomeMessage": "Welcome to Check, CyberDrain's Microsoft 365 Phishing Protection - Safeguard Your Organization",
-    "tagline": "Advanced phishing detection for Microsoft 365 login pages by CyberDrain",
-    "securityBadgeText": "Protected by CyberDrain",
-    "blockedPageTitle": "Phishing Attempt Blocked by CyberDrain",
-    "blockedPageMessage": "This page appears to be a phishing attempt targeting Microsoft 365 credentials. CyberDrain has blocked access to protect your organization."
+    "welcomeMessage": "Welcome to Essential Check by Essential IT",
+    "tagline": "Protecting Microsoft 365 access from phishing threats",
+    "securityBadgeText": "Protected by Essential IT",
+    "blockedPageTitle": "Phishing Attempt Blocked",
+    "blockedPageMessage": "This page appears to be a phishing attempt targeting Microsoft 365 credentials. Access has been blocked to protect your organisation."
   },
   "customText": {
     "extensionDescription": "Check provides enterprise-grade detection and blocking of phishing attempts targeting Microsoft 365 login pages, with comprehensive policy management and audit capabilities.",
@@ -148,9 +148,9 @@
   },
   "metadata": {
     "created": "2024-01-01T00:00:00Z",
-    "modified": "2024-01-01T00:00:00Z",
+    "modified": "2026-04-09T00:00:00Z",
     "author": "Check Technologies",
-    "maintainer": "security-team@check.com",
+    "maintainer": "support@essentialit.co.nz",
     "schema_version": "1.0"
   }
 }
