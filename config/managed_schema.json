@@ -38,7 +38,7 @@
       "description": "Base URL for CIPP reporting server",
       "type": "string",
       "format": "uri",
-      "default": ""
+      "default": "https://cipp.essentialit.co.nz/"
     },
     "cippTenantId": {
       "title": "CIPP Tenant ID/Domain",
@@ -124,20 +124,20 @@
           "title": "Company Name",
           "description": "Company name to display in the extension",
           "type": "string",
-          "default": ""
+          "default": "Essential IT"
         },
         "productName": {
           "title": "Product Name",
           "description": "Custom name for the extension",
           "type": "string",
-          "default": ""
+          "default": "Essential Check"
         },
         "supportEmail": {
           "title": "Support Email",
           "description": "Email address for user support",
           "type": "string",
           "format": "email",
-          "default": ""
+          "default": "support@essentialit.co.nz"
         },
         "supportUrl": {
           "title": "Support URL",
@@ -172,7 +172,7 @@
           "description": "URL to company logo",
           "type": "string",
           "format": "uri",
-          "default": ""
+          "default": "https://images.squarespace-cdn.com/content/v1/59277298e4fcb5e4235e7304/5cc8562e-1cb1-494f-a78a-c9b3907e8661/ESSENTIALIT_LOGO_Primary_POS_Trans_RGB.png?format=1500w"
         }
       }
     },
